@@ -1,0 +1,7 @@
+In sostanza la fase di pulizia dei file è stata svolta per la maggior parte in Power Query di Excel per velocizzare i procedimenti 
+ed in piccola parte su Python tramite il metodo ".split".
+Sono state innanzitutto eliminate le colonne che non servivano all'analisi, poi ho escluso i NON vincitori ("FALSE") dalle colonne "WON" per ogni file ed infine ho preso tutte le info dall'anno 1975 in poi, in quanto i lavoratori degli anni precedenti o potrebbero essere morti oppure potrebbero non lavorare più nel settore del cinema o comunque non vincere più.
+Per il resto i dati sono stati puliti e resi più omogenei ad esempio eliminando caratteri ambigui oppure "scomodi" come nel file dei
+film vincitori del premio "miglior film dell'anno" per le colonne del budget e del box office dove ho eliminato gli zeri, lasciando le cifre dei milioni e arrotondandole (specificando nel nome delle colonne che fossero milioni).
+Sempre nel stesso file dei film ho anche integrato informazioni da Wikipedia, cioè il genere dei film.
+Inoltre ho anche creato un file, con l'ausilio di Python, per le diverse "combinazioni/accoppiate" di ruolo che si sono presentate nei migliori film dell'anno.
